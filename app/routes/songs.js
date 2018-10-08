@@ -8,6 +8,7 @@ let Song = EmberObject.extend({
     rating:0,
 });
 
+
 export default Route.extend({
     model() {
         let blackDog = Song.create({
